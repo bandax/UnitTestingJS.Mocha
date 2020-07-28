@@ -1,0 +1,138 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-07-28T20:30:42.533Z",
+    "end": "2020-07-28T20:30:42.549Z",
+    "duration": 16,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "a1a81a36-0a66-4982-b067-c177bf5abc60",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "a4d8cae4-3094-405b-bc57-ca8f8bf24d68",
+          "title": "Calculator",
+          "fullFile": "C:\\Users\\Luis_Banda\\Documents\\Testing\\Mocha\\UnitTestingJS.Mocha\\test\\specs\\calculator.spec.js",
+          "file": "\\test\\specs\\calculator.spec.js",
+          "beforeHooks": [
+            {
+              "title": "\"before each\" hook",
+              "fullTitle": "Calculator \"before each\" hook",
+              "timedOut": false,
+              "duration": 1,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "calculator = new Calculator();",
+              "err": {},
+              "uuid": "40239a00-70b7-4d3e-9257-860548c14323",
+              "parentUUID": "a4d8cae4-3094-405b-bc57-ca8f8bf24d68",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after each\" hook",
+              "fullTitle": "Calculator \"after each\" hook",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "calculator = null;",
+              "err": {},
+              "uuid": "35e7dc77-7d1e-4f2e-82e9-1446ea26ab17",
+              "parentUUID": "a4d8cae4-3094-405b-bc57-ca8f8bf24d68",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "should return 5 as the sum of 3 + 2",
+              "fullTitle": "Calculator should return 5 as the sum of 3 + 2",
+              "timedOut": false,
+              "duration": 1,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(calculator.add(3,2)).to.be.equal(5);",
+              "err": {},
+              "uuid": "b0e9aab6-bd68-41bd-84bc-f14ca0de793e",
+              "parentUUID": "a4d8cae4-3094-405b-bc57-ca8f8bf24d68",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "b0e9aab6-bd68-41bd-84bc-f14ca0de793e"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 5000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 5000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "8.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": null,
+      "version": "5.1.0"
+    }
+  }
+}
