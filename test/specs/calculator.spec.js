@@ -17,9 +17,9 @@ describe('Calculator', function() {
         expect(calculator.add(3,2)).to.be.equal(5);
     });
 
-    // it('should return 6 as 3 times 2', function(){
-    //     expect(calculator.multiply(3,2)).to.be.equal(6);
-    // });
+    it('should return 6 as 3 times 2', function(){
+        expect(calculator.multiply(3,2)).to.be.equal(6);
+    });
     
 })
 
